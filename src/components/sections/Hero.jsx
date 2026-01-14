@@ -4,8 +4,8 @@ import SplitText from "../effects/SplitText";
 import Particles from "../effects/Particles";
 import AnimatedContent from "../effects/AnimatedContent";
 import Mail from "../icons/Mail";
-import Linkedin from "../icons/LinkedIn";
-import GitHub from "../icons/GitHub";
+import Linkedin from "../icons/Linkedin";
+import GitHub from "../icons/Github";
 
 export default function Hero() {
     const { t, i18n } = useTranslation();
