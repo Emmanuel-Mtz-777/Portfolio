@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "role": "Fullstack Developer",
+    "greeting": "Hi! I'm Emmanuel Martínez",
+    "imageAlt": "AI image of my previous style with blond hair",
+    "description": "Focused on creating functional and well-structured solutions.",
+    "completeDescription":"I enjoy transforming ideas into real projects using modern tools and continuously growing professionally.",
+    "location": "Aguascalientes, Ags., Mexico 🇲🇽"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "stack": "Stack",
+    "certifications": "Certifications",
+    "about": "About Me",
+    "contact": "Contact"
+  }
+}

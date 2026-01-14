@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "role": "Desarrollador Fullstack",
+    "greeting": "¡Hola! Soy Emmanuel Martínez",
+    "imageAlt": "Imagen IA de mi estilo anterior con cabello rubio",
+    "description": "Enfocado en crear soluciones funcionales y bien estructuradas.",
+    "completeDescription":"Me gusta transformar ideas en proyectos reales utilizando herramientas modernas y manteniéndome en constante crecimiento profesional.",
+    "location": "Aguascalientes, Ags., México 🇲🇽"
+  },
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "certifications": "Certificaciones",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  }
+}
