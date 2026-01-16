@@ -14,5 +14,61 @@
     "certifications": "Certificaciones",
     "about": "Sobre mí",
     "contact": "Contacto"
+  },
+    "projects": {
+    "title": "Proyectos",
+    "items": [
+      {
+        "id": "spotify-insights",
+        "imageAlt": "Captura de pantalla de Spotify-Insights-with-Elasticsearch",
+        "name": "Spotify-Insights-with-Elasticsearch",
+        "description": "Análisis de Big Data con Elasticsearch sobre un dataset de canciones de Spotify. Permite consultar características como duración, energía y valencia, y visualizar los resultados en Jupyter Notebooks. Todo el entorno (Elasticsearch y Kibana) corre en contenedores Docker.",
+        "technologies": [
+          "Python",
+          "Jupyter Notebook",
+          "Elasticsearch",
+          "Docker"
+        ],
+        "repository": "Ver repositorio"
+      },
+      {
+        "id": "snakify",
+        "imageAlt": "Captura de pantalla de Snakify",
+        "name": "Snakify",
+        "description": "Proyecto frontend desarrollado para un E-commerce enfocado en la venta de postres en tiendas locales. Permite la interacción del usuario con la interfaz, dejando abierta la posibilidad de integrar un backend en el futuro.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Tailwind CSS",
+          "Astro"
+        ],
+        "repository": "Ver repositorio"
+      },
+      {
+        "id": "c-ita",
+        "imageAlt": "Captura de pantalla de C-Ita",
+        "name": "C-Ita",
+        "description": "Proyecto frontend desarrollado en Kotlin, enfocado en crear una red social al estilo Facebook para estudiantes del ITA. Permite la interacción entre usuarios mediante publicaciones, utilizando tanto una base de datos local SQLite como una API externa desarrollada en Node.js con conexión a una base de datos MySQL.",
+        "technologies": [
+          "Kotlin"
+        ],
+        "repository": "Ver repositorio"
+      },
+      {
+        "id": "meet2go",
+        "imageAlt": "Captura de pantalla de Meet2go",
+        "name": "Meet2go",
+        "description": "Aplicación móvil multiplataforma desarrollada con React Native y Supabase para conectar personas con intereses similares y organizar eventos grupales. Incluye perfiles de usuario, gestión de eventos y un sistema de chat en tiempo real basado en un microservicio con Express desplegado en Heroku.",
+        "technologies": [
+          "React",
+          "React Native",
+          "Supabase",
+          "Express"
+        ],
+        "repository": "Ver repositorio"
+      }
+    ]
   }
 }

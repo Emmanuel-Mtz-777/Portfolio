@@ -14,5 +14,61 @@
     "certifications": "Certifications",
     "about": "About Me",
     "contact": "Contact"
+  },
+   "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "id": "spotify-insights",
+        "imageAlt": "Screenshot of Spotify-Insights-with-Elasticsearch",
+        "name": "Spotify-Insights-with-Elasticsearch",
+        "description": "Big Data analysis using Elasticsearch on a Spotify songs dataset. It allows querying features such as duration, energy, and valence, and visualizing results in Jupyter Notebooks. The entire environment (Elasticsearch and Kibana) runs in Docker containers.",
+        "technologies": [
+          "Python",
+          "Jupyter Notebook",
+          "Elasticsearch",
+          "Docker"
+        ],
+        "repository": "View repository"
+      },
+      {
+        "id": "snakify",
+        "imageAlt": "Screenshot of Snakify",
+        "name": "Snakify",
+        "description": "Frontend project developed for an e-commerce platform focused on selling desserts in local stores. It allows user interaction with the interface, leaving room for future backend integration.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "Tailwind CSS",
+          "Astro"
+        ],
+        "repository": "View repository"
+      },
+      {
+        "id": "c-ita",
+        "imageAlt": "Screenshot of C-Ita",
+        "name": "C-Ita",
+        "description": "Frontend project developed in Kotlin, focused on creating a Facebook-style social network for ITA students. It enables user interaction through posts, using both a local SQLite database and an external Node.js API connected to a MySQL database.",
+        "technologies": [
+          "Kotlin"
+        ],
+        "repository": "View repository"
+      },
+      {
+        "id": "meet2go",
+        "imageAlt": "Screenshot of Meet2go",
+        "name": "Meet2go",
+        "description": "Cross-platform mobile application developed with React Native and Supabase to connect people with similar interests and organize group events. It includes user profiles, event management, and a real-time chat system based on an Express microservice deployed on Heroku.",
+        "technologies": [
+          "React",
+          "React Native",
+          "Supabase",
+          "Express"
+        ],
+        "repository": "View repository"
+      }
+    ]
   }
 }
