@@ -70,36 +70,37 @@ export default function Hero() {
             <p className="text-sm opacity-80 mt-4">
                 {t("hero.location")}
             </p>
-            </div>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-6 w-full">
+                        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mt-6 w-full">
 
-            <div className="flex flex-row gap-6 justify-center ">
-                <AnimatedContent>
-                <a href="#" className="hero-link">
-                    <GitHub className="w-5 h-5" />
-                    GitHub
-                </a>
-                </AnimatedContent>
+                <div className="flex flex-row gap-6 justify-center ">
+                    <AnimatedContent>
+                    <a href="#" className="hero-link">
+                        <GitHub className="w-5 h-5" />
+                        GitHub
+                    </a>
+                    </AnimatedContent>
 
+                    <AnimatedContent>
+                    <a href="#" className="hero-link">
+                        <Linkedin className="w-5 h-5" />
+                        LinkedIn
+                    </a>
+                    </AnimatedContent>
+                </div>
                 <AnimatedContent>
-                <a href="#" className="hero-link">
-                    <Linkedin className="w-5 h-5" />
-                    LinkedIn
-                </a>
+                    <a
+                    href="#"
+                    className="hero-link px-6 w-full sm:w-auto text-center"
+                    >
+                    <Mail className="w-5 h-5" />
+                    <span className="break-all sm:break-normal">
+                        hemmanuelmtz777@gmail.com
+                    </span>
+                    </a>
                 </AnimatedContent>
             </div>
-            <AnimatedContent>
-                <a
-                href="#"
-                className="hero-link px-6 w-full sm:w-auto text-center"
-                >
-                <Mail className="w-5 h-5" />
-                <span className="break-all sm:break-normal">
-                    hemmanuelmtz777@gmail.com
-                </span>
-                </a>
-            </AnimatedContent>
             </div>
+
         </div>
         </section>
     );
